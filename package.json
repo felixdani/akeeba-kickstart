@@ -1,0 +1,33 @@
+{
+  "name": "@felixdani/akeeba-kickstart",
+  "version": "1.0.0",
+  "description": "A CLI to load akeeba kickstart files",
+  "main": "src/index.js",
+  "bin": {
+    "@felixdani/akeeba-kickstart": "bin/akeeba-kickstart",
+    "akeeba-kickstart": "bin/akeeba-kickstart"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "akeeba-kickstart"
+  ],
+  "files": [
+    "bin/",
+    "src/",
+    "kickstart/"
+  ],
+  "author": "Daniel Felix <danielfelix1995@gmail.com> (https://danielfelix.in)",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^4.1.2",
+    "chalk": "^3.0.0",
+    "esm": "^3.2.25",
+    "ncp": "^2.0.0"
+  }
+}
